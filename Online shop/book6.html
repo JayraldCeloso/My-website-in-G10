@@ -1,0 +1,341 @@
+<html>
+	<head>
+		<title>
+			book6
+		</title>
+		
+		<link rel="icon" href="logo.png" type="image/x-icon">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<style>
+		.menu:hover {
+		background-color: #EFF5F5;
+		}
+		
+		.menu1 {
+		background-color: #EFF5F5;
+		}
+		
+		.item {
+		background-color: #EFF5F5;
+		position: absolute;
+		height: 600px;
+		width: 1100px;
+		top: 200px;
+		left: 400px;
+		}
+		
+		.book-avatar {
+		position: absolute;
+		top: 40px;
+		left: 50px;
+		height: 300px;
+		width: 300px;
+		padding: 20px;
+		border: 2px solid black;
+		}
+		
+		.title {
+		position: absolute;
+		top: 350px;
+		left: 45px;
+		font-size: 50px;
+		}
+		
+		.price {
+		position: absolute;
+		font-size: 50px;
+		top: 450px;
+		left: 45px;
+		}
+		
+		.book-details {
+		position: absolute;
+		top: 50px;
+		left: 450px;
+		height: 100px;
+		width: 100px;
+		}
+		
+		.th-details {
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-bottom: 0px;
+		border-bottom: 1px solid black;
+		}
+		
+		.th-synopsis {
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-bottom: 0px;
+		border-right: 1px solid black;
+		}
+		
+		.td-synopsis {
+		border-top: 1px solid black;
+		border-right: 1px solid black;
+		}
+		
+		.add-cart {
+		position: absolute;
+		top: 500px;
+		left: 640px;
+		height: 80px;
+		width: 200px;
+		background-color: white;
+		border: 1px solid black;
+		color: black;
+		font-size: 20px;
+		}
+		
+		.add-cart:hover {
+		cursor: pointer;
+		background-color: #EFF5F5;
+		}
+		
+		.buy {
+		position: absolute;
+		top: 500px;
+		left: 850px;
+		height: 80px;
+		width: 200px;
+		background-color: #F49D1A;
+		border: 1px solid black;
+		color: white;
+		font-size: 20px;
+		border: none;
+		}
+		
+		.buy:hover {
+		cursor: pointer;
+		background-color: #FF7000;
+		color: black;
+		border: none;
+		}
+		
+		.rate {
+		background-color: #EFF5F5;
+		position: absolute;
+		height: 400px;
+		width: 1100px;
+		top: 850px;
+		left: 400px;
+		}
+		
+		.rating {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		font-size: 30px;
+		}
+		
+		.review {
+		position: absolute;
+		top: 100px;
+		left: 100px;
+		font-size: 20px;
+		}
+		
+		.td-review {
+		border-bottom: 1px solid black;
+		padding-bottom: 30px;
+		}
+		
+		.recommend {
+		position: absolute;
+		height: 400px;
+		width: 1100px;
+		top: 1300px;
+		left: 400px;
+		color: white;
+		}
+		
+		.recommended-items {
+		position: absolute;
+		top: 100px;
+		left: 0px;
+		height: 100%;
+		width: 100%;
+		background-color: #EFF5F5;
+		}
+		
+		.th-recommended {
+		border: 1px solid black;
+		}
+		
+		.th-recommended:hover {
+		cursor: pointer;
+		background-color: rgba(0, 0, 0, 0.1);
+		}
+		
+		.dot {
+		position: absolute;
+		top: 70px;
+		left: 50px;
+		height: 50px;
+		width: 50px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		font-size: 100%;
+		}
+		
+		.back-btn {
+		background-color: #EFF5F5;
+		position: absolute;
+		top: 80px;
+		left: 50px;
+		font-size: 100%;
+		height: 40px;
+		width: 100px;
+		}
+		
+		.back-btn:hover {
+		cursor: pointer;
+		background-color: rgba(0, 0, 0, 0.7);
+		color: white;
+		}
+		
+		.right-menu {
+		position: absolute;
+		top: 0px;
+		left: 1800px;
+		height: 100%;
+		width: 70px;
+		}
+		</style>
+	</head>
+<body
+	style="background-image: url('book bg 5.jpg'); 
+	background-attachment: fixed; 
+	background-size: cover; 
+	background-blend-mode: darken; 
+	background-color: rgba(0, 0, 0, 0.7);"
+	a link="black" vlink="black">
+
+<div style="background-color: white; position: absolute; left: 0px; top: 0px; height: 60px; width: 100%;">
+
+	<table style="width: 300px; height: 100%;">
+		<tr>
+			<th class="menu"><a href="online-store.html" style="text-decoration: none;"><img src="logo.png" height="50px" width="50px"></a>
+			<th class="menu1"><a href="online-store-product.html" style="text-decoration: none;">Products</a>
+		</tr>
+	</table>
+	
+	<a href="online-shop-cart.html">
+		<table class="right-menu">
+			<tr>
+				<th class="menu"><img src="cart-icon.png" height="100%" width="100%">
+			<tr>
+		</table>
+	</a>
+
+</div>
+
+<a href="online-store-product.html" style="text-decoration: none;">
+	<button class="back-btn">
+		Back
+	</button>
+</a>
+
+<div class="item">
+	<div class="avatar-border">
+		<img src="book6.jpg" class="book-avatar">
+	</div>
+	<h1 class="title">PECULIAR</br> CHILDREN</h1>
+	<p class="price"><font color="green">₱199</font></p>
+	<table class="book-details">
+		<tr>
+			<th class="th-synopsis">
+				SYNOPSIS
+			</th>
+			<th class="th-details">
+				details
+			</th>
+		</tr>
+		<tr>
+			<td  class="td-synopsis" rowspan="4">
+				A mysterious island. An abandoned orphanage. A strange collection of peculiar photographs. It all waits to be discovered in
+				miss Peregrine's Home for Peculiar Children, an unforgetable novel that mixes fiction and photography in a thrilling reading
+				experience. As our story opens, a horrific family tragedy sets sixteen year old jacob journeying to a remote island off the coast of Wales,
+				where hediscovers the crumbling ruins of Miss peregrine's Home for Peculiar CHildren. AS Jacob explores it's decaying bedrooms
+				and hallways, it becomes clear that Miss Peregrine's children were more than just peculiar. They may have been dangerous. They may
+				have been quarantinedon a deserted island for good reason. And somehow-impossible thought it seems- they may still be alive.
+			</td>
+			<td class="th-details">
+				soft cover
+			</td>
+		</tr>
+		
+		<tr>	
+			<td class="th-details">
+				From fullybooked
+			</td>
+		</tr>
+		
+		<tr>	
+			<td class="th-details">
+				written by: RANSOM RIGGS
+			</td>
+		</tr>
+		
+		<tr>	
+			<td class="th-details">
+				QUICKBOOKS
+			</td>
+		</tr>
+	</table>
+	
+	<button class="add-cart">
+		ADD to CART
+	</button>
+	
+	<button class="buy">
+		BUY NOW
+	</button>
+</div>
+
+<div class="rate">
+	<h1 class="rating">
+		Product Rating
+	</h1>
+	
+	<table class="review">
+		<tr>
+			<td class="td-review">"Readers searching for the next Harry Potter may want to visit Miss Peregrine's Home for Peculiar Children." <b>-CNN</b>
+		</tr>
+		
+		<tr>
+			<td class="td-review">"Thrilling, Tim Burton-esque tale with haunting photographs." <b>-USA Today</b>
+		</tr>
+		
+		<tr>
+			<td class="td-review">"With its X-men: First Class-meets-time-travel story line, David Lynchian imagery, and rich, eerie
+			details, it's no wonder Miss Peregrine's Home for peculiar Children has been snapped up by Twentieth Century Fox." <b>-Entertainment weekly</b>
+		</tr>
+		
+		<tr>
+			<td class="td-review">"'Peculiar' doesn't even begin to cover it. A chilling, Wondrous noverl." <b>-People</b>
+		</tr>
+	</table>
+</div>
+
+<div class="recommend">
+	<h1 class="rating">
+		Recommended
+	</h1>
+	
+	<table class="recommended-items">
+		<tr>
+			<th class="th-recommended"><a href="book3.html" style="text-decoration: none;"><img src="book3.jpg" height="250" width="200"> </br></br></br>CHARMED</a>
+			<th class="th-recommended"><a href="book7.html" style="text-decoration: none;"><img src="book7.jpg" height="250" width="200"> </br></br></br>BATTLE MAGIC</a>
+			<th class="th-recommended"><a href="book8.html" style="text-decoration: none;"><img src="book8.jpg" height="250" width="200"> </br></br></br>THE SOUND OF BLUE</a>
+			<th class="th-recommended"><a href="book1.html" style="text-decoration: none;"><img src="book1.jpg" height="250" width="200"> </br></br></br>13 TREASURES</a>
+			<th class="th-recommended"><a href="book2.html" style="text-decoration: none;"><img src="book2.jpg" height="250" width="200"> </br></br></br>How to kill a mocking bird</a>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>
